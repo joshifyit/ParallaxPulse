@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+    perspective: 10px;
+}
+
+.container{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+    z-index: -1;
+}
+
+.bgImage, .fgImage{
+    position: absolute;
+    height:100%;
+    width:100%;
+    object-fit: cover;
+}
+
+.ppTitle{
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    font-size: 12em;
+    position: absolute;
+    top:15%;
+    z-index: 2;
+}
+
+.bgImage{
+    transform: translateZ(-40px);
+    scale: 5.5;
+}
+.fgImage{
+    transform: translateZ(-20px);
+    scale: 3.2;
+}
+
+.contentBox{
+    width: 100%;
+    height: 80%;
+    background-color: #202020;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.contentBox h2{
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 5em;
+}
+.contentBox p{
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+    font-size: 2em;
+    text-align: justify;
+}
+
+.imageText{
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height:50%;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.bg1{
+    background-image: url("../images/sport-1.jpg");
+}
+.bg2{
+    background-image: url("../images/sport-2.jpg");
+}
+.bg3{
+    background-image: url("../images/sport-3.jpg");
+}
+.imageText h2{
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    padding: 0%;
+    padding-left: 1%;
+    padding-right: 1%;
+    font-size: 4em;
+}
+
+.contentBox1{
+    width: 100%;
+    height: 50%;
+    background-color: #202020;
+    padding: 3%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.contentBox1 p{
+    font-family: "Teko", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+    font-size: 2em;
+    text-align: justify;
+}
