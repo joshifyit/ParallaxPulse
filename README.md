@@ -23,15 +23,15 @@ Welcome to my amazing parallax website! This site is a showcase of modern web de
 
 ├── css/
 
-│ ├── styles.css # CSS styles
+- styles.css # CSS styles
 
-│ └── animations.css # CSS animations
+- animations.css # CSS animations
 
 ├── js/
 
-│ ├── main.js # Main JavaScript file
+- main.js # Main JavaScript file
 
-│ └── parallax.js # Parallax effect script
+- parallax.js # Parallax effect script
 
 ├── images/ # Image assets
 
