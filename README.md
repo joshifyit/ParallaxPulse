@@ -1,4 +1,5 @@
 🌟 My Parallax Website 🌟
+
 Welcome to my amazing parallax website! This site is a showcase of modern web design techniques, featuring smooth scrolling effects and eye-catching visuals.
 
 🚀 Features
